@@ -19,7 +19,8 @@ public class Controller {
         //String resourcePath = "./samples/sample-0-origin.html";
         String diffPageResourcePath =  args[1];
         //String diffPageResourcePath =  "./samples/sample-1-evil-gemini.html";
-        String targetElementId = "make-everything-ok-button";
+//        String targetElementId = "make-everything-ok-button";
+        String targetElementId = args[2];
 
         HtmlElement foundElement = originPageAnalyser.findHtmlElementById(new File(resourcePath), targetElementId);
         HashSet<HtmlElement> result = diffCasePageAnalyser.findEtalonLikeElements(new File(diffPageResourcePath), foundElement);
