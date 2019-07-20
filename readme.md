@@ -5,29 +5,29 @@ The executable jar may be downloaded from here:
 https://drive.google.com/drive/folders/1iZ2FBxBIGRPtw8pTREOSn69B_GlqSTAM?usp=sharing
 
 Params needed
-<platform> - the chosen language/platform; i.e. java
-<program_path> - path to the executable app;
-<input_origin_file_path> - origin sample path to find the element with attribute id="make-everything-ok-button" and collect all the required information;
-<input_other_sample_file_path> - path to diff-case HTML file to search a similar element;
-<id_to_find> - id of an elements we want to find
+<platform> - the chosen language/platform; i.e. java<br />
+<program_path> - path to the executable app;<br />
+<input_origin_file_path> - origin sample path to find the element with attribute id  and collect all the required information;<br />
+<input_other_sample_file_path> - path to diff-case HTML file to search a similar element;<br />
+<id_to_find> - id of an elements we want to find<br />
 
 Example of command:
  java -cp /Users/yanaslukhai/Workspace/webcrawler/target/web-crawler-1.0-SNAPSHOT-jar-with-dependencies.jar
- controllers.Controller
- ./samples/sample-0-origin.html
- ./samples/sample-4-the-mash.html
- make-everything-ok-button
+ controllers.Controller<br />
+ ./samples/sample-0-origin.html<br />
+ ./samples/sample-4-the-mash.html<br />
+ make-everything-ok-button<br />
 
 Example of possible xPath result( For each node we will receive node name and node class):
-Found element (Node = "a", class= "btn btn-success")
-        <-(Node = "div", class= "panel-footer")
-        <-(Node = "div", class= "panel panel-default")
-        <-(Node = "div", class= "col-lg-8")
-        <-(Node = "div", class= "row")
-        <-(Node = "div", class= "")
-        <-(Node = "div", class= "")
-        <-(Node = "body", class= "")
-        <-(Node = "html", class= "")
+Found element (Node = "a", class= "btn btn-success")<br />
+        <-(Node = "div", class= "panel-footer")<br />
+        <-(Node = "div", class= "panel panel-default")<br />
+        <-(Node = "div", class= "col-lg-8")<br />
+        <-(Node = "div", class= "row")<br />
+        <-(Node = "div", class= "")<br />
+        <-(Node = "div", class= "")<br />
+        <-(Node = "body", class= "")<br />
+        <-(Node = "html", class= "")<br />
         <-#document
 
 
