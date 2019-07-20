@@ -18,7 +18,7 @@ Example of command:
  ./samples/sample-4-the-mash.html<br />
  make-everything-ok-button<br />
 
-Example of possible xPath result( For each node we will receive node name and node class):
+Example of possible xPath result( For each node we will receive node name and node class):<br />
 Found element (Node = "a", class= "btn btn-success")<br />
         <-(Node = "div", class= "panel-footer")<br />
         <-(Node = "div", class= "panel panel-default")<br />
